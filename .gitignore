@@ -1,0 +1,13 @@
+# 1. Ignora os arquivos de dados brutos que são muito pesados
+Video_Games.csv
+
+# 2. Ignora os backups automáticos que o Jupyter Notebook cria
+.ipynb_checkpoints/
+
+# 3. Ignora os arquivos de cache que o Python gera por baixo dos panos
+__pycache__/
+*.pyc
+
+# 4. Ignora pastas de ambiente virtual (caso você crie uma no futuro)
+venv/
+env/
